@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - absolute value of an integer
+ * _abs - absolute value of an integer
+ * @t: the integer to be computed
  * Return: Absolute value
  */
-int main(int t)
+int _abs(int t)
 {
 	if (t >= 0)
 		return (t);
