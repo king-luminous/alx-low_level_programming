@@ -1,2 +1,1 @@
-more pointers arrays and strings
-this is a new readme file 
+this a non empty readme that contain pointers arrays and strings.
