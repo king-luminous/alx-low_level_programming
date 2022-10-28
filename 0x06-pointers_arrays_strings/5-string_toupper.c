@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_toupper - chanhes lowercase to uppercase
+ * string_toupper - changes lowercase to uppercase
  * @n: pointer
  * Return: char
  */
@@ -16,5 +16,5 @@ char *string_toupper(char *n)
 			n[i] = n[i] - 32;
 		i++;
 	}
-	return (0);
+	return (n);
 }
