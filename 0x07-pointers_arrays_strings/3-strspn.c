@@ -21,14 +21,14 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				count++;
 			}
+			j++;
 		}
-		j++;
-	}
-	j = 0;
-	i++;
-	if (s[i] == ' ')
-	{
-		break;
+		j = 0;
+		i++;
+		if (s[i] == ' ')
+		{
+			break;
+		}
 	}
 	return (count);
 }
