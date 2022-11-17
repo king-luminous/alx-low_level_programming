@@ -1,9 +1,9 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - prints all the parameter
+ * print_numbers - prints all the parameters passed to it
  * @n: number of arg passed
- * @seperators: string between numbers to be printed
+ * @separator: is the string to be printed between numbers
  *
  * Return: void
  */
@@ -19,8 +19,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			if (i != n - 1)
 			{
-				if (seperator != NULL)
-					printf("%d%s", va_arg(params, int), seperator);
+				if (separator != NULL)
+					printf("%d%s", va_arg(params, int), separator);
 				else
 					printf("%d%s", va_arg(params, int));
 			}
