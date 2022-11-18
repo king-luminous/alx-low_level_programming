@@ -44,5 +44,6 @@ char *make_nil(char *s)
 {
 	if (s == NULL)
 		s = "(nil)";
+
 	return (s);
 }

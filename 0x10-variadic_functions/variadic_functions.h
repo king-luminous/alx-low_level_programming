@@ -10,5 +10,8 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 int _putchar(char c);
 char *make_nil(char *s);
+void print_all(const char * const format, ...);
+int count_format(const char * const format);
+void print_comma(int j, int x);
 
 #endif
