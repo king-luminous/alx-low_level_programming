@@ -3,7 +3,7 @@
 void first(void) __attribute__ ((constructor));
 
 /**
- * start_up_func - function that gets executed before the main function
+ * first - function to be executed
  *
  * Return: void
  */
