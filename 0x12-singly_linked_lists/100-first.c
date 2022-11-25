@@ -5,10 +5,10 @@ void first(void) __attribute__ ((constructor));
 /**
  * first - function to be executed
  *
- * Return: void
+ * Return: Nothing.
  */
 void first(void)
 {
-	printf("you're beat! and yet, you must allow,\n");
+	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
 }
