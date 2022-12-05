@@ -8,8 +8,7 @@
  * Return: if the function fails or filename is NULL - -1
  *
  */
-int append_text_to_file(const char *filename,
-	char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 	int o, w, len = 0;
 
@@ -19,7 +18,7 @@ int append_text_to_file(const char *filename,
 	if (text_content != NULL)
 	{
 		for (len = 0; text_content[len];)
-			len++
+			len++;
 	}
 
 	o = open(filename, O_WRONLY | O_APPEND);
